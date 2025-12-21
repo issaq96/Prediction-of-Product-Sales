@@ -42,4 +42,15 @@ This step is to gather first insight of the data (number of columns and the numb
 ## 3. Visualizations and Insights
 
 ### Correlation Heatmap
+- Item_MRP (Maximum Retail Price) shows a moderate positive correlation with Item_Outlet_Sales. as noticed : higher-priced items contribute more to the total sales volume in general.
 
+- ### Boxplot: Sales by Outlet Type
+- Supermarket Type3 shows the highest median sales and interquartile range, showing it is the most profitable selling outlet type.
+- Grocery Store has significantly lower sales compared to all supermarket types.
+- There are visible outliers in all categories of the outlet_type.
+
+### 3. Barplot: Average Sales by Item Type
+- Starchy Foods and Seafood appear to have the highest average sales among all item categories.
+- Baking Goods** and Soft Drinks have lower average sales.
+- it is noticed that higher-value categories like seafood might drive higher revenue per sale.
+  
