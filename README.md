@@ -40,22 +40,4 @@ This project analyzes the `sales_predictions_2023.csv` dataset to forecast sales
 ## 3. Visualizations and Insights
 
 ### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
 
-**Insight**: 
-- `Item_MRP` shows a moderate **positive correlation** with `Item_Outlet_Sales`. As the price of the item increases, the sales tend to increase.
-- `Item_Weight` and `Item_Visibility` have very low correlation with sales.
-
-### Distribution of Item Outlet Sales
-![Sales Distribution](images/sales_distribution.png)
-
-**Insight**:
-- The distribution is **right-skewed**.
-- Most items have lower sales, but there are a few items with very high sales (long tail).
-
-### Sales by Outlet Type
-![Sales by Outlet Type](images/sales_by_outlet_type.png)
-
-**Insight**:
-- **Supermarket Type3** has the highest median sales and interquartile range, indicating superior performance.
-- **Grocery Store** has the lowest sales figures, which is expected due to size and traffic differences.
