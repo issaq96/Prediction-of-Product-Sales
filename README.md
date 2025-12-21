@@ -27,14 +27,14 @@ This step is to gather first insight of the data (number of columns and the numb
 
 ### Missing Values
 - **Identified**:
-    - `Item_Weight`: 1463 missing values.
-    - `Outlet_Size`: 2410 missing values.
-- **Action**: Filled missing `Outlet_Size` (categorical) with 'MISSING'.
-
-**Insight**: Filling categorical missing values with a placeholder like 'MISSING' allows us to retain the data rows while acknowledging the absence of information.
+    - Item_Weight: 1463 missing values.
+    - Outlet_Size: 2410 missing values.
+- **Action**: Filled missing Outlet_Size (categorical) with 'MISSING'.
+- **Action**: Filled the missing Item_Weight with mean of this Column.
+**Insight**: Filling categorical missing values with a placeholder like 'MISSING' allows the data to be retained while acknowledging the absence of information.
 
 ### Inconsistencies
-- **Identified**: `Item_Fat_Content` contained 'LF', 'low fat', 'Regular', 'reg', 'Low Fat'.
+- **Identified**: Item_Fat_Content contained 'LF', 'low fat', 'Regular', 'reg', 'Low Fat'.
 - **Action**: Standardized to 'Low Fat' and 'Regular'.
 
 **Insight**: Uniform labels are crucial for accurate grouping and analysis.
