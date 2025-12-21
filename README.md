@@ -1,8 +1,5 @@
-# Prediction-of-Product-Sales
-This project aims to predict the sales of food items in various stores
-## Introduction
 # Sales Predictions 2023 Analysis
-
+## Introduction
 This project analyzes the sales_predictions_2023.csv dataset to predict sales and find trends. It uses Python libraries such as pandas, numpy, matplotlib, and seaborn for data cleaning, exploration, and visualization.
 
 ## 1. Data Exploration
