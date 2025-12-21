@@ -51,6 +51,6 @@ This step is to gather first insight of the data (number of columns and the numb
 
 ### 3. Barplot: Average Sales by Item Type
 - Starchy Foods and Seafood appear to have the highest average sales among all item categories.
-- Baking Goods** and Soft Drinks have lower average sales.
+- Baking Goods and Soft Drinks have lower average sales.
 - it is noticed that higher-value categories like seafood might drive higher revenue per sale.
   
